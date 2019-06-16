@@ -1,2 +1,2 @@
 # companyPage
-Project 1
+Coders Trust - projekt 1
