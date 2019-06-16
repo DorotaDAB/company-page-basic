@@ -1,0 +1,79 @@
+/* body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+
+.container {
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}  */
+
+#home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("https://picsum.photos/id/1056/1600/1200");
+    background-size: cover;
+    background-position: center;
+}
+
+.home-shadow {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.home-container {
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly; 
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.home-text {
+    width: 60%;
+    padding: 20px;
+}
+
+#home > h1 {
+    position: relative;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 70px;
+}
+
+h2 {
+    position: relative;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 70px;
+}
+
+.btn {
+    position: relative;
+    font-size: 18px;
+    line-height: 21px;
+    width: 165px;
+    height: 42px;
+    border: 3px solid #FFFFFF;
+    background: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    /* margin-bottom: 5%; */
+}
+
+.btn a {
+    font-size: 18px;
+    line-height: 21px;
+   
+    color: #FFFFFF;
+    text-decoration: none;
+}

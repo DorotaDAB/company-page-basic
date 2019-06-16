@@ -1,0 +1,51 @@
+/* body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+} */
+
+nav {
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    background: #4E4E4E;
+}
+
+nav a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+} 
+
+.name {
+    position: relative;
+    display: flex;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.menu-right {
+    position: relative;
+    float: right;
+}
+
+li {
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    padding: 15px 15px;
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+}
