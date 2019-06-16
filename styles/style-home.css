@@ -26,6 +26,9 @@
     color: #FFFFFF;
 }
 
+.container {
+    align-items: center;
+}
 .home-text {
     width: 60%;
     padding: 20px;
