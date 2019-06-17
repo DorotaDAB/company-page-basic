@@ -68,12 +68,12 @@ h2 {
 
 .btn:hover {
     background: white;
-    color: black;
+    /* color: black; */
     transition-duration: 1s;
     transition-timing-function: linear;
 }
 
-.btn:hover a{
+.btn:hover a {
     color: black;
     transition-duration: 1s;
     transition-timing-function: linear;

@@ -1,9 +1,7 @@
-/* jeszcze nie ostylowane */
 #about {
     position: relative;
     font-family: Roboto;
     font-style: normal;
-    /* font-weight: bold; */
     font-size: 18px;
     line-height: 21px;
     color: #000000;
@@ -31,6 +29,16 @@
     color: #000000;
 }
 
+/* .photo:nth-of-type(even) {
+    position: relative;
+    width: 199px;
+    height: 199px;
+    border-radius: 50%;
+    background-image: url("http://www.zmr.lodz.pl/wp-content/plugins/our-team-enhanced/assets/images/default-avatar.png");
+    background-repeat: no-repeat; 
+    float: left;
+} */
+
 .employee1-photo {
     position: relative;
     width: 199px;
@@ -39,15 +47,31 @@
     background-image: url("http://www.zmr.lodz.pl/wp-content/plugins/our-team-enhanced/assets/images/default-avatar.png");
     background-repeat: no-repeat; 
     float: left;
-}
+ }
+
+/* .employee-name:nth-of-type(even) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 250px;
+} */
 
 .employee1-name {
     position: relative;
     display: flex;
-    flex-direction: column;
-    margin-top: 180px;
+    flex-direction: column; 
+    margin-top: 20%;
     margin-left: 250px;
-}
+ }
+
+/* .employee-about:nth-of-type(even) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    text-align: left;
+} */
 
 .employee1-about  {
     position: relative;
@@ -57,7 +81,7 @@
     text-align: left;
 }
 
-.employee2-photo {
+/* .photo:nth-of-type(odd) {
 position: relative;
 width: 199px;
 height: 199px;
@@ -66,7 +90,27 @@ background-image: url("http://www.zmr.lodz.pl/wp-content/plugins/our-team-enhanc
 background-repeat: no-repeat; 
 margin-top: 15%;
 float: right;
-}
+} */
+
+
+.employee2-photo {
+    position: relative;
+    width: 199px;
+    height: 199px;
+    border-radius: 50%;
+    background-image: url("http://www.zmr.lodz.pl/wp-content/plugins/our-team-enhanced/assets/images/default-avatar.png");
+    background-repeat: no-repeat; 
+    margin-top: 15%;
+    float: right;
+    }
+    
+
+/* .employee-name:nth-of-type(odd) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+} */
 
 .employee2-name {
     position: relative;
@@ -75,9 +119,16 @@ float: right;
     margin-top: 15%;
 }
 
+/* .employee-about:nth-of-type(odd) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}  */
+
 .employee2-about  {
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: left;
-}
+} 
