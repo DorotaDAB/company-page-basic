@@ -3,7 +3,7 @@
     position: relative;
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 18px;
     line-height: 21px;
     color: #000000;
@@ -17,157 +17,67 @@
 #about h1 {
     position: absolute;
     width: 100%;
-    
     font-size: 36px;
     line-height: 42px;
     font-weight: bold;
     margin-top: 60px;
-    color: #000000;
+    color:#152D41;
 }
-.container {
-    align-items: center;
+
+#about h2 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #000000;
 }
 
 .employee1-photo {
-    position: absolute;
+    position: relative;
     width: 199px;
     height: 199px;
     border-radius: 50%;
     background-image: url("http://www.zmr.lodz.pl/wp-content/plugins/our-team-enhanced/assets/images/default-avatar.png");
     background-repeat: no-repeat; 
-    margin-top: 150px;
+    float: left;
 }
 
 .employee1-name {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-top: 180px;
     margin-left: 250px;
-    /* float: right; */
 }
 
 .employee1-about  {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 230px;
     margin-left: 250px;
     text-align: left;
-    /* float: right; */
 }
 
 .employee2-photo {
-    position: absolute;
-    width: 199px;
-    height: 199px;
-    border-radius: 50%;
-    background-image: url("http://www.zmr.lodz.pl/wp-content/plugins/our-team-enhanced/assets/images/default-avatar.png");
-    background-repeat: no-repeat; 
-    margin-top: 380px;
-    margin-left: 1000px; 
+position: relative;
+width: 199px;
+height: 199px;
+border-radius: 50%;
+background-image: url("http://www.zmr.lodz.pl/wp-content/plugins/our-team-enhanced/assets/images/default-avatar.png");
+background-repeat: no-repeat; 
+margin-top: 15%;
+float: right;
 }
 
 .employee2-name {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 400px;
-    margin-left: 0px;
-    /* float: right; */
+    margin-top: 15%;
 }
 
 .employee2-about  {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 480px;
-    margin-left: 0px;
-    margin-right: 300px;
     text-align: left;
-    /* float: right; */
 }
-
-/* .employee.text {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    float: right;
-    margin-top: 100px;
-}
-.employee {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    float: right;
-} */
-/* 
-.name {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-        float: right;
- 
-} */
-
-/* .employee.text {
-    position: relative;
-    display: block;
-    /* flex-direction: column; */
-    /* align-content: center;
-    align-items: center;
-    }  */ 
-
-/* .employees {
-    /* position: relative; */
-    /* width: 386px;
-    height: 69px;*/
-    /* font-size: 36px;
-    line-height: 21px; */
-    /* display: flex; */
-    /* align-items: center;
-    justify-items: center;
-    padding-top: 5%;
-} */ 
-/* 
-.name {
-    position: relative;
-    /* display: flex; */
-    /* align-items: center;
-    /* text-align: right; */
-    /* font-style: normal;
-    font-weight: bold;
-    color: #000000;
-    padding: 5px;
-} */ 
-
-/* .employee1 {
-    position: relative;
-    display: flex;
-    /* margin-top: 5%; */
-    /* padding: 10px; */
-    /* flex-direction: column; */
-    /* text-align: right; */
-
-    /* vertical-align: middle;
-    align-items: center;
-} */ 
-
-/* .employee1-text {
-    width: 60%;
-    text-align: right;
-    margin-left: 0;
-} */
-
-/* .employee2 {
-    position: absolute;
-    display: flex;
-    margin-top: 20%;
-
-    /* flex-direction: column; */
-    /* text-align: left;
-
-    vertical-align: middle;
-    align-items: center; */ 
