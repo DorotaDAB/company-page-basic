@@ -8,16 +8,14 @@
 }
 
 .home-shadow {
-    position: relative;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.15);
 }
 
 .home-container {
-    position: relative;
+    display: flex;
     flex-direction: column;
-    padding-top:  15%;
     height: 100%;
     justify-content: space-evenly; 
     font-style: normal;
@@ -28,26 +26,21 @@
 .home-text {
     width: 60%;
     padding: 20px;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 h1 {
-    position: relative;
     font-size: 36px;
     line-height: 42px;
     margin-bottom: 70px;
 }
 
 h2 {
-    position: relative;
-    font-size: 18px;
-    line-height: 21px;
     margin-bottom: 70px;
 }
 
 .btn {
-    position: relative;
-    font-size: 18px;
-    line-height: 21px;
     width: 165px;
     height: 42px;
     border: 3px solid #FFFFFF;
@@ -55,13 +48,11 @@ h2 {
     color: #FFFFFF;
     cursor: pointer;
     text-decoration: none;
-    /* margin-bottom: 5%; */
 }
 
 .btn a {
     font-size: 18px;
     line-height: 21px;
-   
     color: #FFFFFF;
     text-decoration: none;
 } 
@@ -78,4 +69,3 @@ h2 {
     transition-duration: 1s;
     transition-timing-function: linear;
 } 
-/* dlaczego samo .btn:hover nie działa na kolor fontu? */

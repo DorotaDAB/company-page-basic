@@ -1,9 +1,19 @@
 
 nav {
     position: relative;
+    display: flex;
     width: 100vw;
     height: 50px;
     background: #4E4E4E;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
 }
 
 nav a {
@@ -14,28 +24,26 @@ nav a {
 } 
 
 .name {
-    position: relative;
-    display: flex;
-    float: left;
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
-    padding: 15px 15px;
 }
 
-.menu-right {
-    position: absolute;
-    float: right;
-    padding-top: 0px;
+ul {
+    list-style-type: none;
 }
 
-li {
+nav li {
     text-align: center;
     font-weight: normal;
     font-style: normal;
-    padding: 5px 15px;
+    padding: 5px;
     text-decoration: none;
     list-style-type: none;
-    float: right;
+    display: inline;
 }
+
+nav li:last-of-type a {
+    cursor: not-allowed;
+}
+
