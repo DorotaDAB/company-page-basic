@@ -2,7 +2,8 @@
 nav {
     position: relative;
     display: flex;
-    width: 100vw;
+    /* width: 100vw; */
+    width: 100%;
     height: 50px;
     background: #4E4E4E;
     justify-content: space-between;
