@@ -1,2 +1,5 @@
-# companyPage
-Coders Trust - projekt 1
+# company-page-basic
+
+This is a web page representing company card.
+
+* Used technologies: HTML, CSS
